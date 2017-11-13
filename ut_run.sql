@@ -385,8 +385,8 @@ begin
   p('  ut_runner.run( ');
   p('      a_paths => ut_varchar2_list('||:l_paths||'),');
   p('      a_reporters => v_reporters_list,');
-  p('      a_source_files => v_source_files,');
-  p('      a_test_files => v_test_files,');
+  p('      a_source_file_mappings => ut_file_mapper.build_file_mappings(v_source_files),');
+  p('      a_test_file_mappings   => ut_file_mapper.build_file_mappings(v_test_files),');
   p('      a_color_console => '||:l_color_enabled||' );');
   p('end;');
   p('/');
