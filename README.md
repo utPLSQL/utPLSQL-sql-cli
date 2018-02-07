@@ -1,3 +1,9 @@
+This project is no longer supported or developed. 
+----
+It was replaced with [utPLSQL-cli](https://github.com/utPLSQL/utPLSQL-cli)
+----
+
+
 # utPLSQL-sql-cli
 
 Bash & windows command-line client for [utPLSQL v3](https://github.com/utPLSQL/utPLSQL/)
